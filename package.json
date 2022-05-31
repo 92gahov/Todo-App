@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  },
+  "scripts": {
+    "start-server": "npx json-server --watch db.json",
+    "start": "npm run start-server"
+  }
+}
