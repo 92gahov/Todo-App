@@ -242,9 +242,9 @@ function countEvents() {
     let title = ""
     document.getElementById("num").innerHTML = count;
     if (events.length === 1) {
-        title = "todo";
+        title = "event";
     } else {
-        title = "todos";
+        title = "events";
     }
     document.getElementById("title").innerHTML = title;
 };
