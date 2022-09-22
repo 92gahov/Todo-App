@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <div>
+                <textarea id="event-field" cols="44" rows="3" placeholder="Make an event..."></textarea>
+            </div>
+            <div class="date">
+                <input type="date" id="date-field">
+            </div>
+            <div class="add-btn">
+                <button id="new-btn">Add new</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal">
+        <div class="today-event">
+            <span class="close">&times;</span>
+            <p><b>You have event today:</b></p>
+            <p id="today-event"></p>
+        </div>
+    </div>
+
+    <div class="output-main"></div>
+
+    <div class="count">
+        <p>You have <span id="num"></span> <span id="title"></span></p>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
